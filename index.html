@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Edtech learning</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- custom css -->
+    <script src="https://kit.fontawesome.com/b1e0b8840c.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- header start -->
-    <header>
+    <header class="container " >
         <!-- navbar starts -->
         <section class="container my-5">
             <nav class="navbar navbar-expand-lg bg-light">
@@ -48,35 +52,40 @@
         </section>
         <!-- navbar ends -->
         <!-- slider starts -->
-        <section class="container my-5">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner align-items-center">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h1>Get Started Digital 
-                            Learnin</h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable 
-                                content of a page when looking at its layout.</p>
-                                <div class="btn btn-primary">Get Started</div>
-                    </div>
-                  </div>           
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+    
+            <div class="carousel-item active">
+              <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption position-absolute top-50 start-50 translate-middle ">
+                <h5>Get Started Digital <br>
+                  Learning</h5>
+                <p>It is a long established fact that a reader will be distracted by the readable 
+                  content of a page when looking at its layout.</p>
+                  <div class="slider-btn">
+                    <button class=" btn btn-warning">Get Started</button>
                   </div>
-        
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </button>
               </div>
-        </section>
+        
+         
+
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         <!-- slider end -->
     </header>
     <!--header ends -->
@@ -287,19 +296,23 @@
      </section> -->
       <!-- trusted companies section ends-->
     </main>
-   <footer class="bg-dark text-white pt-5 pb-4">
-     <div class="container text-center">
-    <div class="row text-center">
-  <div class="col-lg-3 col-md-3 col-xl-3 mx-auto mt-3">
-      <h1 class="mb-4 mt-10">Pro Edu</h1>
-      <p>Office 41, Zawaya Buildin, Ghala Muscat,<br>
-        Sultanate of Oman</p>
-        <p>Privacy Ploicy | Terms of us</p>
-  
-  </div>  
-</div>
-     </div>
-     </footer>
+    <footer>
+      <section class="bg-dark text-light py-5">
+       <div class=" text-center">
+           <h1>Pro Edu</h1>
+           <p>
+               Office 41, Zawaya Buildin, Ghala Muscat,<br> 
+               Sultanate of Omanbr <br>
+               Privacy Ploicy | Terms of use</p>
+                              
+                 <i class="fa-brands fa-facebook px-2"></i>
+                 <i class="fa-brands fa-twitter px-2"></i>
+                 <i class="fa-brands fa-instagram px-2"></i>
+                 <i class="fa-brands fa-tiktok px-2"></i>
+               
+       </div>
+      </section>
+   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
